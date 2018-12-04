@@ -1,0 +1,307 @@
+[25-Nov-2018 19:10:59 UTC] PHP Warning:  require_once(..classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:10:59 UTC] PHP Fatal error:  require_once(): Failed opening required '..classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:11:10 UTC] PHP Warning:  require_once(..classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:11:10 UTC] PHP Fatal error:  require_once(): Failed opening required '..classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:11:15 UTC] PHP Warning:  require_once(classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:11:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 2
+[25-Nov-2018 19:21:47 UTC] PHP Fatal error:  Uncaught Error: Class 'ManageProducto' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/remove.php on line 14
+[26-Nov-2018 18:12:24 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 3
+[26-Nov-2018 18:12:24 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 3
+[26-Nov-2018 18:12:44 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php/sessions) failed: Permission denied (13) in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 12
+[26-Nov-2018 18:13:04 UTC] PHP Notice:  Undefined variable: _SESSION in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 12
+[26-Nov-2018 18:13:04 UTC] PHP Notice:  Undefined variable: _SESSION in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 13
+[26-Nov-2018 18:44:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ManageUsuario' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 30
+[26-Nov-2018 18:45:58 UTC] PHP Notice:  Undefined variable: resultado2 in /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php on line 48
+[26-Nov-2018 18:47:00 UTC] PHP Warning:  file_get_contents(gmail/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php on line 26
+[26-Nov-2018 18:47:00 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(26): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(17): izv\tools\Mail::sendMail('periclesawesome...', 'Correo de activ...', 'Correo de activ...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php(47): izv\tools\Mail::sendActivation(Object(izv\data\Usuario))
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[26-Nov-2018 18:47:40 UTC] PHP Warning:  file_get_contents(gmail/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php on line 26
+[26-Nov-2018 18:47:40 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(26): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(17): izv\tools\Mail::sendMail('periclesawesome...', 'Correo de activ...', 'Correo de activ...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/deactivate.php(47): izv\tools\Mail::sendActivation(Object(izv\data\Usuario))
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[28-Nov-2018 16:02:15 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/users/twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/users/twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/users/unknownuser.php(23): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:02:43 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/DWES-Trim1-Project/users/unknownuser.php on line 23
+[28-Nov-2018 16:03:00 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/users../twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/users../twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/users/unknownuser.php(23): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:30:57 UTC] PHP Warning:  require_once(classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:30:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:31:16 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/user/twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/user/twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php(13): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:31:28 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/user/twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/user/twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php(13): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:32:20 UTC] PHP Warning:  require_once(/classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:32:20 UTC] PHP Fatal error:  require_once(): Failed opening required '/classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:32:29 UTC] PHP Warning:  require_once(classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:32:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:34:09 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/user../twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/user../twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php(13): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:35:45 UTC] PHP Warning:  require_once(classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:35:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 2
+[28-Nov-2018 16:36:11 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 3
+[28-Nov-2018 16:36:11 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php on line 3
+[28-Nov-2018 16:36:19 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: The "/home/ubuntu/workspace/DWES-Trim1-Project/user/twig" directory does not exist ("/home/ubuntu/workspace/DWES-Trim1-Project/user/twig"). in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(82): Twig_Loader_Filesystem->addPath('/home/ubuntu/wo...', '__main__')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(40): Twig_Loader_Filesystem->setPaths(Array)
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/edit.php(13): Twig_Loader_Filesystem->__construct('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 101
+[28-Nov-2018 16:37:15 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Unable to find template "_base.html" (looked into: /home/ubuntu/workspace/DWES-Trim1-Project/user/twig) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:226
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('_base.html')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('_base.html')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('_base.html')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('_base.html', NULL)
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(378) : eval()'d code(15): Twig_Template->loa in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 226
+[28-Nov-2018 16:37:54 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../twig/_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../twig/_base.h...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../twig/_base.h...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../twig/_base.h...')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../twig/_base.h...')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environme in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:38:11 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../_base.html')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../_base.html')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../_base.html')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../_base.html')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('../_bas in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:38:50 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../../twig/_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../../twig/_bas...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../../twig/_bas...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../../twig/_bas...')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../../twig/_bas...')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Enviro in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:42:29 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../_base.html')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../_base.html')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../_base.html')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../_base.html')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment->loadTemplate('../_bas in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:42:43 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../../_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../../_base.htm...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../../_base.htm...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../../_base.htm...')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../../_base.htm...')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Environment in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:42:49 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../../twig/_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../../twig/_bas...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../../twig/_bas...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../../twig/_bas...')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../../twig/_bas...')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Enviro in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:43:27 UTC] PHP Fatal error:  Uncaught Twig_Error_Loader: Looks like you try to load a template outside configured directories (../../twig/_base.html) in "_edit.html" at line 1. in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php:267
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(192): Twig_Loader_Filesystem->validateName('../../twig/_bas...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('../../twig/_bas...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(270): Twig_Loader_Filesystem->getCacheKey('../../twig/_bas...')
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Environment.php(350): Twig_Environment->getTemplateClass('../../twig/_bas...')
+#4 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Template.php(330): Twig_Enviro in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/twig/twig/lib/Twig/Loader/Filesystem.php on line 267
+[28-Nov-2018 16:49:17 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 5
+[28-Nov-2018 18:14:43 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 15
+[28-Nov-2018 18:19:08 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 21
+[28-Nov-2018 18:26:05 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 22
+[28-Nov-2018 18:40:22 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 22
+[28-Nov-2018 18:47:02 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 22
+[28-Nov-2018 18:49:53 UTC] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 15
+[28-Nov-2018 18:49:56 UTC] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 15
+[28-Nov-2018 18:50:15 UTC] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 15
+[28-Nov-2018 18:50:15 UTC] PHP Notice:  Undefined variable: nombre in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 15
+[28-Nov-2018 18:53:34 UTC] PHP Notice:  Undefined variable: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 23
+[28-Nov-2018 19:00:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 41
+[28-Nov-2018 19:00:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 41
+[28-Nov-2018 19:02:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 44
+[28-Nov-2018 19:02:38 UTC] PHP Warning:  require_once(../../classes/vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 2
+[28-Nov-2018 19:02:38 UTC] PHP Fatal error:  require_once(): Failed opening required '../../classes/vendor/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 2
+[28-Nov-2018 19:02:46 UTC] PHP Warning:  require(../../classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 3
+[28-Nov-2018 19:02:46 UTC] PHP Fatal error:  require(): Failed opening required '../../classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 3
+[28-Nov-2018 19:02:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 44
+[28-Nov-2018 19:04:38 UTC] PHP Warning:  require(../autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 3
+[28-Nov-2018 19:04:38 UTC] PHP Fatal error:  require(): Failed opening required '../autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 3
+[28-Nov-2018 19:05:03 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 44
+[28-Nov-2018 19:05:41 UTC] PHP Fatal error:  Uncaught Error: Class 'classes\Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 44
+[28-Nov-2018 19:09:54 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 44
+[28-Nov-2018 19:10:18 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 48
+[28-Nov-2018 19:11:17 UTC] PHP Notice:  Undefined variable: clave in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 49
+[28-Nov-2018 19:27:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Database' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 20
+[28-Nov-2018 19:40:00 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 28
+[28-Nov-2018 19:45:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Util' not found in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 75
+[28-Nov-2018 19:46:11 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 93
+[28-Nov-2018 19:46:59 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 93
+[28-Nov-2018 19:47:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 79
+[28-Nov-2018 19:48:03 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 97
+[28-Nov-2018 20:10:36 UTC] PHP Notice:  Undefined index: password in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 60
+[28-Nov-2018 20:10:36 UTC] PHP Notice:  Undefined index: password in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 72
+[28-Nov-2018 20:10:36 UTC] PHP Notice:  Undefined variable: sentencia in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 93
+[28-Nov-2018 20:11:03 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 93
+[28-Nov-2018 22:14:42 UTC] PHP Warning:  file_get_contents(gmail/token.conf): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php on line 26
+[28-Nov-2018 22:14:42 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: invalid json token in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php:430
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(26): Google_Client->setAccessToken(false)
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/izv/tools/Mail.php(17): izv\tools\Mail::sendMail('periclesawesome...', 'Correo de activ...', 'Correo de activ...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php(123): izv\tools\Mail::sendActivation(Object(izv\data\Usuario))
+#3 {main}
+  thrown in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Client.php on line 430
+[28-Nov-2018 22:17:20 UTC] PHP Warning:  require(classes/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/DWES-Trim1-Project/user/doactivar.php on line 10
+[28-Nov-2018 22:17:20 UTC] PHP Fatal error:  require(): Failed opening required 'classes/autoload.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/DWES-Trim1-Project/user/doactivar.php on line 10
+[28-Nov-2018 22:33:02 UTC] PHP Notice:  Undefined variable: resultado in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 35
+[28-Nov-2018 22:38:01 UTC] PHP Notice:  Undefined index: nombre in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 17
+[28-Nov-2018 22:38:01 UTC] PHP Notice:  Undefined index: alias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 40
+[28-Nov-2018 22:38:01 UTC] PHP Notice:  Undefined index: clave in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 64
+[28-Nov-2018 22:38:01 UTC] PHP Notice:  Undefined index: clave in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 97
+[28-Nov-2018 22:38:01 UTC] PHP Notice:  Undefined index: email in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 98
+[28-Nov-2018 22:47:19 UTC] PHP Notice:  Undefined variable: clavechecked in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 82
+[28-Nov-2018 22:47:19 UTC] PHP Notice:  Undefined variable: clavechecked in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 85
+[29-Nov-2018 07:52:00 UTC] PHP Notice:  Undefined index: vaciar in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 131
+[29-Nov-2018 07:52:16 UTC] PHP Notice:  Undefined index: password in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 62
+[29-Nov-2018 16:08:38 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 133
+[29-Nov-2018 16:08:38 UTC] PHP Notice:  Undefined index: desactivar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 146
+[29-Nov-2018 16:08:38 UTC] PHP Notice:  Undefined index: noadmin in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 159
+[29-Nov-2018 16:11:04 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 133
+[29-Nov-2018 16:11:04 UTC] PHP Notice:  Undefined index: desactivar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 146
+[29-Nov-2018 16:41:26 UTC] PHP Notice:  Undefined variable: usuarios in /home/ubuntu/workspace/DWES-Trim1-Project/admin/users.php on line 18
+[29-Nov-2018 16:41:26 UTC] PHP Notice:  Undefined variable: usuarios in /home/ubuntu/workspace/DWES-Trim1-Project/admin/users.php on line 24
+[29-Nov-2018 21:54:37 UTC] PHP Notice:  Undefined index: clave in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 64
+[29-Nov-2018 21:54:37 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 133
+[29-Nov-2018 21:54:37 UTC] PHP Notice:  Undefined index: desactivar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 146
+[29-Nov-2018 21:54:37 UTC] PHP Notice:  Undefined index: noadmin in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 159
+[29-Nov-2018 22:22:08 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedituser.php on line 59
+[29-Nov-2018 22:22:08 UTC] PHP Notice:  Undefined index: activar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedituser.php on line 72
+[29-Nov-2018 22:23:54 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedituser.php on line 59
+[29-Nov-2018 22:26:26 UTC] PHP Notice:  Undefined index: activar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedituser.php on line 72
+[29-Nov-2018 22:32:25 UTC] PHP Notice:  Undefined index: noadmin in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedituser.php on line 164
+[30-Nov-2018 13:09:09 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalidArgument",
+    "message": "Recipient address required"
+   }
+  ],
+  "code": 400,
+  "message": "Recipient address required"
+ }
+}
+ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[30-Nov-2018 14:51:45 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 133
+[30-Nov-2018 14:52:26 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/user/doedit.php on line 133
+[30-Nov-2018 14:58:06 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalidArgument",
+    "message": "Recipient address required"
+   }
+  ],
+  "code": 400,
+  "message": "Recipient address required"
+ }
+}
+ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[30-Nov-2018 14:58:46 UTC] PHP Fatal error:  Uncaught Google_Service_Exception: {
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalidArgument",
+    "message": "Recipient address required"
+   }
+  ],
+  "code": 400,
+  "message": "Recipient address required"
+ }
+}
+ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php:118
+Stack trace:
+#0 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(94): Google_Http_REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#1 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Task/Runner.php(176): Google_Http_REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google_Service_...')
+#2 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php(58): Google_Task_Runner->run()
+#3 /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/ in /home/ubuntu/workspace/DWES-Trim1-Project/classes/vendor/google/apiclient/src/Google/Http/REST.php on line 118
+[30-Nov-2018 15:13:54 UTC] PHP Notice:  Undefined index: vaciaralias in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 133
+[30-Nov-2018 15:13:54 UTC] PHP Notice:  Undefined index: desactivar in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 146
+[30-Nov-2018 15:13:54 UTC] PHP Notice:  Undefined index: noadmin in /home/ubuntu/workspace/DWES-Trim1-Project/admin/doedit.php on line 159

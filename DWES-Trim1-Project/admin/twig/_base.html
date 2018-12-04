@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DWES</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../Assets/CSS/style.css">
+		<link rel="icon" href="../Assets/images/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $("a").on('click', function(event) {
+			    if (this.hash !== "") {
+			      event.preventDefault();
+			      var hash = this.hash;
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 1500, function(){
+			        window.location.hash = hash;
+			      });
+			    }
+			  });
+			});
+		</script>
+	</head>
+	<body>
+		<div id="nav">
+			{% block nav_li %}{% endblock %}
+		</div>
+		<div id="informacionUsuarios">
+			{% block content %}{% endblock %}
+		</div>
+		<footer>
+			<div id="info">
+				<p id="parrafoFooter">© 2018 Tiillo / Privacy Policy</p>
+				<div class="textoLogo animatedDiv">
+					<img src="../Assets/images/phone-receiver.svg" class="logo">
+					<p>958 65 67 00</p>
+				</div>
+				<div class="textoLogo animatedDiv">
+					<img src="../Assets/images/black-envelope.svg" class="logo">
+					<p>tiillo@data</p>
+				</div>
+			</div>
+			<nav>	
+				<ul>	
+					<li><a class="Hoover" href="#nav">Go Up</a></li>
+				</ul>
+			</nav>
+			<div id="logos">
+				<div>
+					<a target="_blank" href="https://www.instagram.com/explore/tags/programmer/?hl=es"><img src="../Assets/images/icon.svg" class="logoGrande animatedLogo"></a>
+					<a target="_blank" href="https://www.facebook.com/groups/2204685680/"><img src="../Assets/images/facebook-logo.svg" class="logoGrande animatedLogo"></a>
+				</div>			
+				<div class="textoLogo animatedDiv">
+					<img src="../Assets/images/locating.svg" class="logo">
+					<a class="Hoover" target="_blank" href="https://www.google.com/moon/">Locate us on the map</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

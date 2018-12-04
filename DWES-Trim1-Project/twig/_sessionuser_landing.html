@@ -1,0 +1,27 @@
+{% extends '_base.html' %}
+{% block nav_li %}
+	<nav id="navbar">
+		<ul>
+			<li><a class="Hoover2" href="logout.php">Logout</a></li>
+		</ul>
+	</nav>
+{% endblock %}
+
+{% block content %}
+	<h1 class="centrar" style="width:100%; text-align:center; margin-top: 50px">{{ titulo }}</h1>
+	<p style="width:100%; text-align:center; margin-top: 50px; margin-bottom: 50px;">
+	<span>Nombre: </span>{{ user.nombre }} 
+	/ <span>Correo: </span> {{ user.correo }} 
+	/ <span>Alias: </span> {{ user.alias }}
+	/ <span>Activo: </span> {{ user.activo }}</p>
+	<br><p style="width:100%;text-align:center;"><a href="user/edit.php" style="color:black;">Editar</a></p>
+	<!--QUE PIDA CONFIRMACION-->
+	<br><p style="width:100%;text-align:center;"><a href="user/remove.php" style="color:black;" onclick="return confirmar()">Eliminar cuenta</a></p>
+	<script>
+		function confirmar() {
+		        if (!confirm("¿Está seguro de que desea eliminar su cuenta permanentemente?")) return false;
+		}
+	</script>
+	<!--Dar de baja se cambia su activo a 0 y se envia correo de activacion-->
+	<br><p style="width:100%;text-align:center;margin-bottom:50px;"><a href="deactivate.php" style="color:black;">Dar de baja</a></p>
+{% endblock %}

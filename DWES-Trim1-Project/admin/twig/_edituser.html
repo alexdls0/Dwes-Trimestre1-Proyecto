@@ -1,0 +1,30 @@
+{% extends '_base.html' %}
+{% block nav_li %}
+	<nav id="navbar">
+		<ul>
+			<li><a class="Hoover2" href="../index.php">Home</a></li>
+		</ul>
+	</nav>
+{% endblock %}
+
+{% block content %}
+	<h1 class="centrar" style="width:100%; text-align:center; margin-top: 50px">{{ titulo }}</h1>
+	<form style="width: 100%; text-align: center; margin-top: 50px; margin-bottom: 100px;" action="doedituser.php" method="post">
+		<p>Nombre</p>
+		<input type="text" name="nombre"/>
+		<p>Alias</p>
+		<input type="text" name="alias"/>
+		<input type="checkbox" name="vaciaralias" value="vaciar"> Eliminar alias<br><br>
+		<input type="radio" name="admin" value="admin"> Admin<br>
+	  	<input type="radio" name="admin" value="noadmin" checked> No admin<br>
+	
+		<p>Email</p>
+		<input type="email" name="email"/>
+		<p>New password</p>
+		<input type="password" name="claveRep"/>
+		<p>New password again</p>
+		<input type="password" name="claveRep2"/><br>
+		<input type="checkbox" name="activar" value="activar"> ¿Activar?<br><br>
+		<br><input type="submit" value="Edit" style="margin-top: 50px;"/>
+	</form>
+{% endblock %}

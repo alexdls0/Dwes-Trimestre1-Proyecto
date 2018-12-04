@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+{% block nav_li %}
+	<nav id="navbar">
+		<ul>
+			<li><a class="Hoover2" href="signin.php">Sign in</a></li>
+			<li><a class="Hoover2" href="login.php">Login</a></li>
+		</ul>
+	</nav>
+{% endblock %}
+
+{% block content %}
+	<h1 class="centrar" style="width:100%; text-align:center; margin-top: 50px">{{ titulo }}</h1>
+	
+	{% for user in lista %}
+		<p style="width:100%; text-align:center; margin-top: 50px; margin-bottom: 50px;"><span>Nombre: </span>{{ user.nombre }} / <span>Correo: </span> {{ user.correo }} / <span>Alias: </span> {{ user.alias }}</p>
+	{% endfor %}
+{% endblock %}

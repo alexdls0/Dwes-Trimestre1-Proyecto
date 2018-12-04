@@ -1,0 +1,21 @@
+<?php
+session_start();
+require_once '../classes/vendor/autoload.php';
+$cliente = new Google_Client();
+
+$cliente->setApplicationName('DWES');
+$cliente->setClientId('541578754925-qrgl49jchrgea84tkgpfk9mnetbp4l6v.apps.googleusercontent.com');
+$cliente->setClientSecret('KVtm7NvGA26KurfXO5kgWDbG');
+$cliente->setRedirectUri('https://dwese-alexdls0.c9users.io/proyecto/gmail/obtenercredenciales.php');
+
+$cliente->setScopes('https://www.googleapis.com/auth/gmail.compose');
+$cliente->setAccessType('offline');
+if (isset($_GET['code'])) {
+    $cliente->authenticate($_GET['code']);
+    $_SESSION['token'] = $cliente->getAccessToken();
+    $archivo = "token.conf";
+    $fh = fopen($archivo, 'w') or die("error");
+    fwrite($fh, json_encode($cliente->getAccessToken()));
+    fclose($fh);
+    header("Location: finalizartoken.php?code=" . $_GET['code']);
+}
